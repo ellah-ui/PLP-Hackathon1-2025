@@ -1,6 +1,7 @@
 # My Creative Beginner Portfolio 
 
-## [(https://ellah-ui.github.io/PLP-Hackathon1-2025/)]
+## 🌐 Live Demo
+(https://ellah-ui.github.io/PLP-Hackathon1-2025/)]
 
 ## 🌟 Overview
 
@@ -47,9 +48,6 @@ portfolio/
 4. **Visual Hierarchy**: Clear section differentiation
 
 5. **Micro-interactions**: Hover effects and transitions
-
-🌐 Live Demo
-[(https://ellah-ui.github.io/PLP-Hackathon1-2025/)]
 
 ## 🔧 Installation
 
