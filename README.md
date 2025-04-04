@@ -1,7 +1,5 @@
 # My Creative Beginner Portfolio 
 
-![Portfolio Screenshot](https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80)
-
 ## 🌟 Overview
 
 This is a modern, responsive portfolio website showcasing my work as a designer and developer. Built with pure HTML, CSS, and JavaScript (no frameworks), this single-page application showcases creative work with elegant animations and interactive elements such as smooth animations, a custom cursor, and a dark/light mode toggle.
