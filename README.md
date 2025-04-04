@@ -4,7 +4,7 @@
 
 ## 🌟 Overview
 
-A modern, responsive portfolio website showcasing my work as a designer and developer. Built with pure HTML, CSS, and JavaScript (no frameworks), this single-page application showcases creative work with elegant animations and interactive elements such as smooth animations, a custom cursor, and dark/light mode toggle.
+This is a modern, responsive portfolio website showcasing my work as a designer and developer. Built with pure HTML, CSS, and JavaScript (no frameworks), this single-page application showcases creative work with elegant animations and interactive elements such as smooth animations, a custom cursor, and a dark/light mode toggle.
 
 ## 🚀 Key Features
 
@@ -49,11 +49,12 @@ portfolio/
 5. **Micro-interactions**: Hover effects and transitions
 
 🌐 Live Demo
-[(https://ellah-ui.github.io/PLP-Hackathon1-2025.github.io/)]
+[
+](https://ellah-ui.github.io/PLP-Hackathon1-2025/)
 
 ## 🔧 Installation
 
-No installation required! Just open `index.html` in any modern browser.
+No installation is required! Just open `index.html` in any modern browser.
 
 For local development:
 1. Clone the repository 
