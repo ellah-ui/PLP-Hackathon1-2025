@@ -56,7 +56,7 @@ No installation is required! Just open `index.html` in any modern browser.
 
 For local development:
 1. Clone the repository 
-        git clone https://github.com/ellah-ui/portfolio.git
+        git clone [(https://github.com/ellah-ui/PLP-Hackathon1-2025.github.io.git)]
 2. Open `index.html` in your browser
 3. Start editing - all code is in a single file for simplicity
 
