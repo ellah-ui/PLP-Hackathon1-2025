@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <a href="#" class="logo">Port<span>folio</span></a>
+      <div class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#portfolio" class="nav-link">Work</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <img src="https://source.unsplash.com/random/1920x1080/?dark,abstract" alt="Background" class="hero-bg">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <h1 class="hero-title">Creative <span>Designer</span> & <span>Developer</span></h1>
+        <p class="hero-subtitle fade-in fade-in-delay-1">I create beautiful digital experiences that captivate and inspire. Specializing in modern web design and development.</p>
+        <div class="hero-buttons fade-in fade-in-delay-2">
+          <a href="#portfolio" class="btn btn-primary">
+            View My Work
+            <i class="fas fa-arrow-right btn-icon"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Get In Touch
+            <i class="fas fa-envelope btn-icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator fade-in fade-in-delay-3">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Now Section -->
+  <section class="section now">
+    <div class="container now-container">
+      <div class="now-header fade-in">
+        <div class="now-status"></div>
+        <h2 class="now-title">Currently</h2>
+      </div>
+      <div class="now-grid">
+        <div class="now-card fade-in">
+          <h3 class="now-card-title">
+            <i class="fas fa-briefcase"></i>
+            Working on
+          </h3>
+          <p class="now-card-content">Freelance web development projects and cloud solutions for clients in the tech and creative industries.</p>
+        </div>
+        <div class="now-card fade-in fade-in-delay-1">
+          <h3 class="now-card-title">
+            <i class="fas fa-book"></i>
+            Learning
+          </h3>
+          <p class="now-card-content">Advanced Software development with Power Learn Project and Ai and Machine learning.</p>
+        </div>
+        <div class="now-card fade-in fade-in-delay-2">
+          <h3 class="now-card-title">
+            <i class="fas fa-headphones"></i>
+            Listening to
+          </h3>
+          <p class="now-card-content">RnBs, Lo-fi beats, and tech podcasts about the future of web and software development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container about-container">
+      <div class="about-image fade-in">
+        <div class="about-image-wrapper">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250403-WA0004.jpg-KEXuEhPezPebg345i6jR6ZrdoRBw3I.jpeg" alt="Profile">
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="about-title fade-in">About Me</h2>
+        <p class="about-text fade-in fade-in-delay-1">
+          I'm a passionate designer and developer with over 1 year of experience creating 
+          stunning digital experiences and cloud services. My approach combines aesthetic sensibility with 
+          technical expertise to build solutions that are both beautiful and functional.
+        </p>
+        <p class="about-text fade-in fade-in-delay-1">
+          When I'm not coding or designing, you can find me exploring nature, 
+          photographing normal life experiences or experimenting with new creative techniques.
+        </p>
+        
+        <div class="skills fade-in fade-in-delay-2">
+          <div class="skill">
+            <div class="skill-header">
+              <span class="skill-name">Software Design</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+          </div>
+          
+          <div class="skill">
+            <div class="skill-header">
+              <span class="skill-name">Web Development</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+          </div>
+          
+          <div class="skill">
+            <div class="skill-header">
+              <span class="skill-name">Branding</span>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="75"></div>
+            </div>
+          </div>
+          
+          <div class="skill">
+            <div class="skill-header">
+              <span class="skill-name">Photography</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title fade-in">My Portfolio</h2>
+      <p class="section-subtitle fade-in fade-in-delay-1">
+        Explore a selection of my recent projects showcasing my skills in design and development
+      </p>
+      
+      <div class="portfolio-filter fade-in fade-in-delay-1">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="ui">Software</button>
+        <button class="filter-btn" data-filter="photography">Photography</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item fade-in" data-id="1" data-category="branding">
+          <div class="portfolio-image-container">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Eco Brand Identity" class="portfolio-image">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Branding</span>
+            <h3 class="portfolio-title">Eco Brand Identity</h3>
+            <p class="portfolio-description">Complete brand identity for an eco-friendly startup, including logo design, color palette, typography, and brand guidelines.</p>
+            <a href="#" class="portfolio-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item fade-in fade-in-delay-1" data-id="2" data-category="web">
+          <div class="portfolio-image-container">
+            <img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Luxury E-commerce" class="portfolio-image">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Web Development</span>
+            <h3 class="portfolio-title">Luxury E-commerce</h3>
+            <p class="portfolio-description">Full-stack e-commerce platform for a luxury fashion brand with custom product filtering, user accounts, and secure checkout.</p>
+            <a href="#" class="portfolio-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>    
+        </div>
+        
+        <div class="portfolio-item fade-in fade-in-delay-2" data-id="3" data-category="ui">
+          <div class="portfolio-image-container">
+            <img src="https://images.unsplash.com/photo-1616469829941-c7200edec809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Health App UI Design" class="portfolio-image">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Software</span>
+            <h3 class="portfolio-title">App UI Design</h3>
+            <p class="portfolio-description">Intuitive mobile app interface for a eye-tracking application with custom illustrations and animations.</p>
+            <a href="#" class="portfolio-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item fade-in" data-id="4" data-category="photography">
+          <div class="portfolio-image-container">
+            <img src="https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Product Photography" class="portfolio-image">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Photography</span>
+            <h3 class="portfolio-title">Product Photography</h3>
+            <p class="portfolio-description">Professional product photography for a jewelry collection, featuring creative compositions and lighting techniques.</p>
+            <a href="#" class="portfolio-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item fade-in fade-in-delay-1" data-id="5" data-category="branding">
+          <div class="portfolio-image-container">
+            <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Tech Company Rebrand" class="portfolio-image">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Branding</span>
+            <h3 class="portfolio-title">Tech Company Rebrand</h3>
+            <p class="portfolio-description">Complete rebranding for a tech company transitioning to a new market, including logo redesign and brand strategy.</p>
+            <a href="#" class="portfolio-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="portfolio-item fade-in fade-in-delay-2" data-id="6" data-category="web">
+          <div class="portfolio-image-container">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Portfolio Website" class="portfolio-image">
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-category">Web Development</span>
+            <h3 class="portfolio-title">Portfolio Website</h3>
+            <p class="portfolio-description">Custom portfolio website for a digital artist with interactive galleries and animation effects.</p>
+            <a href="#" class="portfolio-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Get In Touch</h2>
+      <p class="section-subtitle fade-in fade-in-delay-1">
+        Have a project in mind or want to collaborate? Feel free to reach out!
+      </p>
+      
+      <div class="contact-container">
+        <div class="contact-info fade-in">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-content">
+              <h3>Location</h3>
+              <p>Kahawa Wendani, Kiambu County, 10964</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-content">
+              <h3>Email</h3>
+              <p>stlangulu@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-content">
+              <h3>Phone</h3>
+              <p>+25471964-3367</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-container fade-in fade-in-delay-1">
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Your email" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject of your message" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Your message" rows="6" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary form-submit" id="submitBtn">
+              Send Message
+              <i class="fas fa-paper-plane btn-icon"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <h2 class="footer-logo">Port<span>folio</span></h2>
+        <p class="footer-text">Creating beautiful digital experiences that captivate and inspire. Let's work together to bring your ideas to life.</p>
+        <div class="social-links">
+          <a href="https://x.com/its_stelah" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+          <a href="https://github.com/ellah-ui" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/stellahotunga" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; <span id="currentYear"></span> Stellah Angulu. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modalTitle">Project Title</h2>
+        <button class="modal-close" id="modalClose">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <div class="modal-image-gallery">
+            <img src="/placeholder.svg" alt="Project" class="modal-image-main" id="modalImageMain">
+            <img src="/placeholder.svg" alt="Project Thumbnail 1" class="modal-image-thumbnail active" id="modalThumb1">
+            <img src="/placeholder.svg" alt="Project Thumbnail 2" class="modal-image-thumbnail" id="modalThumb2">
+            <img src="/placeholder.svg" alt="Project Thumbnail 3" class="modal-image-thumbnail" id="modalThumb3">
+            <img src="/placeholder.svg" alt="Project Thumbnail 4" class="modal-image-thumbnail" id="modalThumb4">
+          </div>
+          <div class="modal-info">
+            <div>
+              <span class="modal-category" id="modalCategory">Category</span>
+              <h3 class="portfolio-title" id="modalProjectTitle">Project Title</h3>
+              <p class="modal-description" id="modalDescription">Project description goes here.</p>
+            </div>
+            
+            <div class="modal-details">
+              <h4>Project Details</h4>
+              <ul>
+                <li><i class="fas fa-check-circle"></i> <span>Completed in 2023</span></li>
+                <li><i class="fas fa-check-circle"></i> <span>Created using HTML, CSS, and JavaScript</span></li>
+                <li><i class="fas fa-check-circle"></i> <span>Responsive design for all devices</span></li>
+                <li><i class="fas fa-check-circle"></i> <span>Optimized for performance and accessibility</span></li>
+              </ul>
+            </div>
+            
+            <div class="modal-actions">
+              <!-- Buttons removed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <div class="toast-icon">
+      <i class="fas fa-check"></i>
+    </div>
+    <div class="toast-content">
+      <h3 class="toast-title" id="toastTitle">Success!</h3>
+      <p class="toast-message" id="toastMessage">Your message has been sent successfully.</p>
+    </div>
+    <button class="toast-close" id="toastClose">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Custom cursor
+    const cursor = document.querySelector('.cursor');
+    const cursorFollower = document.querySelector('.cursor-follower');
+    
+    document.addEventListener('mousemove', function(e) {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+      
+      setTimeout(() => {
+        cursorFollower.style.left = e.clientX + 'px';
+        cursorFollower.style.top = e.clientY + 'px';
+      }, 50);
+    });
+
+    document.addEventListener('mousedown', function() {
+      cursor.classList.add('active');
+      cursorFollower.classList.add('active');
+    });
+
+    document.addEventListener('mouseup', function() {
+      cursor.classList.remove('active');
+      cursorFollower.classList.remove('active');
+    });
+
+    // Add active class to buttons and links on hover
+    const buttons = document.querySelectorAll('button, a, .portfolio-item, input, textarea');
+    buttons.forEach(button => {
+      button.addEventListener('mouseenter', function() {
+        cursor.classList.add('active');
+        cursorFollower.classList.add('active');
+      });
+      
+      button.addEventListener('mouseleave', function() {
+        cursor.classList.remove('active');
+        cursorFollower.classList.remove('active');
+      });
+    });
+
+    // Sticky navigation
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('.nav');
+      if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+    
+    themeToggle.addEventListener('click', function() {
+      body.classList.toggle('light-mode');
+      
+      if (body.classList.contains('light-mode')) {
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    });
+
+    // Animate elements on scroll
+    const fadeElements = document.querySelectorAll('.fade-in');
+    
+    function checkFade() {
+      fadeElements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+        const elementBottom = element.getBoundingClientRect().bottom;
+        
+        if (elementTop < window.innerHeight - 100 && elementBottom > 0) {
+          element.classList.add('active');
+        }
+      });
+    }
+    
+    // Initial check
+    checkFade();
+    
+    // Check on scroll
+    window.addEventListener('scroll', checkFade);
+
+    // Animate skill bars on scroll
+    const skills = document.querySelector('.skills');
+    
+    function animateSkills() {
+      if (skills) {
+        const skillsTop = skills.getBoundingClientRect().top;
+        
+        if (skillsTop < window.innerHeight - 100) {
+          document.querySelectorAll('.skill-progress').forEach(progress => {
+            const width = progress.getAttribute('data-width');
+            progress.style.width = `${width}%`;
+          });
+        }
+      }
+    }
+    
+    // Initial check
+    animateSkills();
+    
+    // Check on scroll
+    window.addEventListener('scroll', animateSkills);
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // Portfolio filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        // Get filter value
+        const filter = this.getAttribute('data-filter');
+        
+        // Filter portfolio items
+        portfolioItems.forEach(item => {
+          const category = item.getAttribute('data-category');
+          
+          if (filter === 'all' || filter === category) {
+            item.style.display = 'block';
+            setTimeout(() => {
+              item.style.opacity = '1';
+              item.style.transform = 'translateY(0)';
+            }, 200);
+          } else {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+              item.style.display = 'none';
+            }, 500);
+          }
+        });
+      });
+    });
+
+    // Project modal functionality
+    const projectItems = document.querySelectorAll('.portfolio-item');
+    const modal = document.getElementById('projectModal');
+    const modalClose = document.getElementById('modalClose');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalProjectTitle = document.getElementById('modalProjectTitle');
+    const modalCategory = document.getElementById('modalCategory');
+    const modalDescription = document.getElementById('modalDescription');
+    const modalImageMain = document.getElementById('modalImageMain');
+    const modalThumbs = [
+      document.getElementById('modalThumb1'),
+      document.getElementById('modalThumb2'),
+      document.getElementById('modalThumb3'),
+      document.getElementById('modalThumb4')
+    ];
+
+    // Project data
+    const projects = [
+      {
+        id: 1,
+        title: 'Eco Brand Identity',
+        category: 'Branding',
+        description: 'Complete brand identity for an eco-friendly startup, including logo design, color palette, typography, and brand guidelines. The project focused on sustainable design principles and natural aesthetics.',
+        images: [
+          'https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1635405446699-55c1f60e89a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1611244806964-91d204d4a2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1611413790358-3e9835a98b7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+        ]
+      },
+      {
+        id: 2,
+        title: 'Luxury E-commerce',
+        category: 'Web Development',
+        description: 'Full-stack e-commerce platform for a luxury fashion brand with custom product filtering, user accounts, and secure checkout. Built with modern web technologies and optimized for performance.',
+        images: [
+          'https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1571867424488-4565932edb41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1560243563-062bfc001d68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+        ]
+      },
+      {
+        id: 3,
+        title: 'Eye Tracking App UI Design',
+        category: 'UI/UX',
+        description: 'Intuitive mobile app interface for a eye-tracking application with custom illustrations and animations. The design focuses on accessibility and ease of use for all users.',
+        images: [
+          'https://images.unsplash.com/photo-1616469829941-c7200edec809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+        ]
+      },
+      {
+        id: 4,
+        title: 'Product Photography',
+        category: 'Photography',
+        description: 'Professional product photography for a jewelry collection, featuring creative compositions and lighting techniques. Each piece was carefully styled to highlight its unique features.',
+        images: [
+          'https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1611085583191-a3b181a88401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+        ]
+      },
+      {
+        id: 5,
+        title: 'Tech Company Rebrand',
+        category: 'Branding',
+        description: 'Complete rebranding for a tech company transitioning to a new market, including logo redesign and brand strategy. The new identity reflects the company\'s innovative approach and future vision.',
+        images: [
+          'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1572044162444-ad60f128bdea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+        ]
+      },
+      {
+        id: 6,
+        title: 'Portfolio Website',
+        category: 'Web Development',
+        description: 'Custom portfolio website for a digital artist with interactive galleries and animation effects. The site showcases the artist\'s work in an immersive and engaging way.',
+        images: [
+          'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1618788372246-79faff0c3742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+          'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+        ]
+      }
+    ];
+
+    // Open modal when clicking on a project
+    projectItems.forEach(item => {
+      item.addEventListener('click', function() {
+        const projectId = parseInt(this.getAttribute('data-id'));
+        const project = projects.find(p => p.id === projectId);
+        
+        if (project) {
+          modalTitle.textContent = project.title;
+          modalProjectTitle.textContent = project.title;
+          modalCategory.textContent = project.category;
+          modalDescription.textContent = project.description;
+          
+          // Set main image
+          modalImageMain.src = project.images[0];
+          modalImageMain.alt = project.title;
+          
+          // Set thumbnail images
+          modalThumbs.forEach((thumb, index) => {
+            if (project.images[index]) {
+              thumb.src = project.images[index];
+              thumb.alt = `${project.title} - Image ${index + 1}`;
+              thumb.style.display = 'block';
+              
+              // Add click event to thumbnails
+              thumb.addEventListener('click', function() {
+                modalImageMain.src = this.src;
+                
+                // Remove active class from all thumbnails
+                modalThumbs.forEach(t => t.classList.remove('active'));
+                
+                // Add active class to clicked thumbnail
+                this.classList.add('active');
+              });
+            } else {
+              thumb.style.display = 'none';
+            }
+          });
+          
+          // Show modal
+          modal.classList.add('active');
+          document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+        }
+      });
+    });
+
+    // Close modal
+    modalClose.addEventListener('click', function() {
+      modal.classList.remove('active');
+      document.body.style.overflow = ''; // Re-enable scrolling
+    });
+
+    // Close modal when clicking outside
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Contact form submission
+    const contactForm = document.getElementById('contactForm');
+    const toast = document.getElementById('toast');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastClose = document.getElementById('toastClose');
+    const submitBtn = document.getElementById('submitBtn');
+
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value;
+      
+      // Disable submit button and show loading state
+      submitBtn.disabled = true;
+      const originalBtnText = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+      
+      // Simulate form submission (would be an actual API call in a real project)
+      setTimeout(() => {
+        // Show success toast
+        toastTitle.textContent = 'Message sent successfully!';
+        toastMessage.textContent = `Thanks ${name}, I'll get back to you soon regarding "${subject}"`;
+        toast.classList.add('active');
+        
+        // Reset form
+        contactForm.reset();
+        
+        // Re-enable submit button
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+        
+        // Hide toast after 5 seconds
+        setTimeout(() => {
+          toast.classList.remove('active');
+        }, 5000);
+      }, 1500);
+    });
+
+    // Close toast
+    toastClose.addEventListener('click', function() {
+      toast.classList.remove('active');
+    });
+
+    // Mobile menu
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.querySelector('.nav-links');
+    
+    mobileMenuBtn.addEventListener('click', function() {
+      navLinks.classList.toggle('active');
+      
+      if (navLinks.classList.contains('active')) {
+        mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
+      } else {
+        mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+      }
+    });
+
+    // Add mobile menu styles
+    const style = document.createElement('style');
+    style.textContent = `
+      @media (max-width: 767px) {
+        .nav-links {
+          position: fixed;
+          top: 0;
+          right: -100%;
+          width: 80%;
+          height: 100vh;
+          background-color: var(--bg-darker);
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          transition: right 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+          z-index: 99;
+        }
+        
+        .nav-links.active {
+          right: 0;
+        }
+        
+        .nav-link {
+          font-size: 1.5rem;
+          margin: 1rem 0;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+  </script>
+</body>
+</html>
