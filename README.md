@@ -1,7 +1,7 @@
 # My Creative Beginner Portfolio 
 
 ## 🌐 Live Demo
-(https://ellah-ui.github.io/PLP-Hackathon1-2025/)]
+(https://ellah-ui.github.io/PLP-Hackathon1-2025/)
 
 ## 🌟 Overview
 
